@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway-configmap
+data:
+  BACKEND_HOST: "backend-service"
+  BACKEND_PORT: "8001"
